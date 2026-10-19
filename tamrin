@@ -1,1 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <title>My Table</title>
+
+    <style>
+        body {
+            background-color: #f4f5ed;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        
+        h2 {
+            color: #556b2f;
+            margin-top: 40px;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            margin: 30px auto;
+            background-color: white;
+        }
+        
+        th {
+            background-color: #556b2f;
+            color: white;
+            padding: 14px;
+        }
+        
+        td {
+            border: 1px solid #d4dcc4;
+            padding: 12px;
+            color: #333;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #e8eddf;
+        }
+        
+        tr:hover {
+            background-color: #d4dfbd;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Student Information</h2>
+
+    <table>
+        <tr>
+            <th>Count</th>
+            <th>Fname</th>
+            <th>Lname</th>
+            <th>Age</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Sara</td>
+            <td>Mohammadi</td>
+            <td>25</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Dan</td>
+            <td>Akbari</td>
+            <td>20</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Amir</td>
+            <td>Ahmadi</td>
+            <td>21</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Ali</td>
+            <td>Karimi</td>
+            <td>23</td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>Maryam</td>
+            <td>Hosseini</td>
+            <td>22</td>
+        </tr>
+
+        <tr>
+            <td>6</td>
+            <td>Reza</td>
+            <td>Rahimi</td>
+            <td>26</td>
+        </tr>
+
+        <tr>
+            <td>7</td>
+            <td>Neda</td>
+            <td>Moradi</td>
+            <td>24</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
