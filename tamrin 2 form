@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Form</title>
+    <style>
+        body {
+            background: #e8eef5;
+            font-family: Arial;
+            text-align: center;
+        }
+        
+        form {
+            background: #001f3f;
+            color: white;
+            width: 300px;
+            margin: 50px auto;
+            padding: 25px;
+            border-radius: 10px;
+        }
+        
+        input {
+            margin: 8px;
+            padding: 7px;
+            border: none;
+            border-radius: 5px;
+        }
+        
+        input[type="reset"] {
+            background: #4682b4;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Student Form</h2>
+
+    <form>
+        Fname <input type="text" name="fname"><br> Lname <input type="text" name="lname"><br> Phone <input type="text" name="phone"><br> City <input type="text" name="city"><br>
+        <input type="reset" value="New">
+    </form>
+
+</body>
+
+</html>
