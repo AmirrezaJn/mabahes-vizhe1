@@ -1,0 +1,24 @@
+<?php
+$student = array(
+    "name" => "امیررضا",
+    "age" => 21,
+    "field" => "کامپیوتر"
+);
+
+echo $student["name"] . "<br>";
+echo $student["age"] . "<br>";
+echo $student["field"];
+?>
+
+
+
+<?php
+$product = array(
+    "id" => 101,
+    "title" => "Laptop",
+    "price" => 25000000
+);
+
+echo $product["title"] . "<br>";
+echo $product["price"];
+?>
